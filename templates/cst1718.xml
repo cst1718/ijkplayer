@@ -1,0 +1,33 @@
+<templateSet group="cst1718">
+  <template name="syso" value="System.out.println($END$);" description="sss" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="fore" value="for ($ELEMENT_TYPE$ $VAR$ : $ITERABLE_TYPE$) {&#10;  $END$&#10;}" description="fore" toReformat="true" toShortenFQNames="true">
+    <variable name="ELEMENT_TYPE" expression="iterableComponentType(ITERABLE_TYPE)" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ITERABLE_TYPE" expression="iterableVariable()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="GROOVY_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="swi" value="switch ($CONTAINER$) {&#10;    case $1$:&#10;&#10;        break;&#10;    case $2$:&#10;&#10;        break;&#10;    default :&#10;        $END$&#10;        break;&#10;}        " description="switch" toReformat="false" toShortenFQNames="true">
+    <variable name="CONTAINER" expression="suggestFirstVariableName(“Object”)()" defaultValue="" alwaysStopAt="true" />
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="GROOVY_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="doc" value="/**&#10; * author  cst1718 on $data$ $time$&#10; * &lt;p&gt;&#10; * explain $END$&#10; */" description="生成注释" toReformat="false" toShortenFQNames="true">
+    <variable name="data" expression="date()" defaultValue="" alwaysStopAt="true" />
+    <variable name="time" expression="time()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>

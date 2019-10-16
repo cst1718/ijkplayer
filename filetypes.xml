@@ -1,0 +1,20 @@
+<application>
+  <component name="FileTypeManager" version="17">
+    <extensionMap>
+      <mapping pattern="BasePopupDialogFragment" type="CLASS" />
+      <mapping pattern="CustomNoLimitViewPager" type="CLASS" />
+      <mapping pattern="observer" type="CLASS" />
+      <mapping ext="text" type="PLAIN_TEXT" />
+      <mapping ext="md" type="PLAIN_TEXT" />
+      <mapping ext="aar" type="PLAIN_TEXT" />
+      <mapping ext="groov" type="PLAIN_TEXT" />
+      <mapping ext="cfg" type="PLAIN_TEXT" />
+      <mapping ext="keystore" type="PLAIN_TEXT" />
+      <mapping ext="db" type="PLAIN_TEXT" />
+      <mapping pattern="select_dlock_tab_text_bg.xml" type="XML" />
+      <mapping pattern="activity_teach_draw" type="XML" />
+      <mapping pattern="view_weixin_guide" type="XML" />
+      <mapping pattern="shape_title_tab_bg" type="XML" />
+    </extensionMap>
+  </component>
+</application>
