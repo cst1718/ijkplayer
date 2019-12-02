@@ -38,6 +38,10 @@
           <option name="url" value="https://github.com/cst1718/ijkplayer.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://rdgit.wondershare.cn" />
+          <option name="userName" value="chenst" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="F:\my\Demo\H265" />
