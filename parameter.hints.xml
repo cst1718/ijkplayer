@@ -1,0 +1,9 @@
+<application>
+  <component name="ParameterNameHintsSettings">
+    <blacklists>
+      <blacklist language="Java">
+        <added pattern="android.graphics.drawable.Drawable.setBounds(left,top,right,bottom)" />
+      </blacklist>
+    </blacklists>
+  </component>
+</application>
