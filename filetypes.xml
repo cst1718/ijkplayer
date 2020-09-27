@@ -5,6 +5,7 @@
       <mapping pattern="CustomNoLimitViewPager" type="CLASS" />
       <mapping pattern="observer" type="CLASS" />
       <mapping ext="webp" type="Image" />
+      <mapping pattern="sttings" type="PLAIN_TEXT" />
       <mapping ext="groov" type="PLAIN_TEXT" />
       <mapping ext="cfg" type="PLAIN_TEXT" />
       <mapping ext="text" type="PLAIN_TEXT" />
